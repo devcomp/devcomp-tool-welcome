@@ -1,8 +1,8 @@
 {
     "name": "devcomp-tool-welcome",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "pm": "sm",
     "mappings": {
         "devcomp-tool": "github.com/devcomp/devcomp-tool/~0.1.0"
     }
- }
+}
