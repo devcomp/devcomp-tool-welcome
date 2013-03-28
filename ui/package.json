@@ -1,0 +1,17 @@
+{
+    "name": "devcomp-tool-welcome",
+    "version": "0.1.0",
+    "pm": "sm",
+    "dependencies": {
+        "marked": "~0.2.7"
+    },
+    "main": "./tool.htm",
+    "mappings": {
+        "jquery-ui": ["archive", "http://jqueryui.com/resources/download/jquery-ui-1.10.0.custom.zip"],
+        "jquery-layout": ["url", "http://layout.jquery-dev.net/lib/js/jquery.layout-latest.js"],
+        "jquery-layout-css": ["url", "http://layout.jquery-dev.net/lib/css/layout-default-latest.css"]
+    },
+    "config": {
+        "label": "Welcome"
+    }
+ }

@@ -1,0 +1,154 @@
+
+DIV.MARKDOWN {
+    background-color: #FFFFFF;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    width: 100%;
+}
+DIV.MARKDOWN TD {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+DIV.MARKDOWN > DIV.meta {
+    display: none;
+}
+
+DIV.MARKDOWN > TABLE,
+DIV.MARKDOWN > TABLE > TBODY > TR > TD {
+    border: 0px;
+}
+
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page {
+    padding: 20px;
+}
+
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page A {
+    text-decoration: none;
+    border-bottom: 1px dotted blue;
+}
+
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page A.external {
+    background-image: url(__RESOURCE__images/external_small.png);
+    background-repeat: no-repeat;
+    background-position: right 0px;
+    padding-right: 17px;
+}
+
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page A.img,
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page H1 A,
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page H2 A,
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page H3 A {
+    border-bottom: 0px;
+    background: none;
+    padding-right: 0px;
+}
+
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page H1:first-child {
+    margin-top: 0px;    
+}
+
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page H1 {
+    background-color: #E9E9E9;
+    margin-left: -20px;
+    margin-right: -10px;
+    padding: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    text-shadow: #FFFFFF 0px 1px 1px;
+    border-bottom: 1px solid #B9B9B9;
+    border-right: 1px solid #C9C9C9;
+    font-size: 120%;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page H2 {
+    font-size: 120%;
+    margin-left: -10px;
+}
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page H3 {
+    font-size: 110%;
+}
+
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page P.note,
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page P.tip,
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page P.info,
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page P.see,
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page P.example,
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page P.planned,
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page P.require,
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page P.security,
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page P.faster {
+    margin-left: 20px;
+    color: #7D7D7D;
+    min-height: 16px;
+    background-repeat: no-repeat;
+    padding-left: 22px;
+}
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page P.note A,
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page P.tip A,
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page P.info A,
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page P.see A,
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page P.example A,
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page P.planned A,
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page P.require A,
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page P.faster A {
+    color: #7D7D7D;
+    border-bottom: 1px dotted #a5a4aC;
+}
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page P.security A {
+    color: #FF0000;
+    border-bottom: 1px dotted #FF0000;
+}
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page P.note {
+    background-image: url(__RESOURCE__images/report_paper.png);
+}
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page P.tip {
+    background-image: url(__RESOURCE__images/light_bulb_off.png);
+}
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page P.info {
+    background-image: url(__RESOURCE__images/information_frame.png);
+}
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page P.see {
+    background-image: url(__RESOURCE__images/eye.png);
+}
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page P.example {
+    background-image: url(__RESOURCE__images/disc_case.png);
+}
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page P.planned {
+    background-image: url(__RESOURCE__images/construction.png);
+}
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page P.require {
+    background-image: url(__RESOURCE__images/traffic_light_exclamation.png);
+}
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page P.security {
+    color: #FF0000;
+    background-image: url(__RESOURCE__images/exclamation_shield_frame.png);
+}
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page P.faster {
+    background-image: url(__RESOURCE__images/alarm_clock_arrow.png);
+}
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page P.notice {
+    font-size: 13px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #ECD4FF;
+}
+
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page > CODE.code,
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page > CODE.code > DIV {
+    display: inline-block;
+}
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page > CODE.code {
+	overflow-x: auto;
+	width: 100px !important;
+}
+
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page A.show-full-image {
+    border-bottom: 0px;
+    margin: 5px;
+}
+DIV.MARKDOWN > TABLE > TBODY > TR > TD > DIV.page IMG {
+    border: 0px;
+}
